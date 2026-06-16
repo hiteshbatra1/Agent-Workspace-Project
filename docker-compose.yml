@@ -1,0 +1,10 @@
+name: agent-workspace
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: agent_workspace
+    ports:
+      - "5432:5432"
