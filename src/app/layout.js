@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Agent Workspace",
-  description: "Agent Workspace",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
